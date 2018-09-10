@@ -1,5 +1,5 @@
 describe('helloWorld()', function(){
-    it('should return "Hello word"', function(){
+    it('should return "Hello world"', function(){
         expect( helloWorld() ).to.be.equal( 'Hello world' );
     });
 });
@@ -12,7 +12,7 @@ describe('greet()', function(){
         const elem = document.querySelector('.greeting');
         elem.parentNode.removeChild(elem);
     });
-    it('should add "Hello word" to the page', function(){
+    it('should add "Hello world" to the page', function(){
 
         greet();
 
